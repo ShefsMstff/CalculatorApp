@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <main>
+        <div class="calculator">
+            <input class="input" type="text" placeholder="0">
+            <div class="calculator-buttons">
+                <button onclick="resetting()" class="actions">AC</button>
+                <button onclick="deleteLast()" class="actions">←</button>
+                <button onclick="calculating('%')" class="actions">% </button>
+                <button onclick="calculating('/')" class="operators">/</button>
+                <button onclick="calculating('7')" class="numbers">7</button>
+                <button onclick="calculating('8')" class="numbers">8</button>
+                <button onclick="calculating('9')" class="numbers">9</button>
+                <button onclick="calculating('*')" class="operators">x</button>
+                <button onclick="calculating('4')" class="numbers">4</button>
+                <button onclick="calculating('5')" class="numbers">5</button>
+                <button onclick="calculating('6')" class="numbers">6</button>
+                <button onclick="calculating('-')" class="operators">-</button>
+                <button onclick="calculating('1')" class="numbers">1</button>
+                <button onclick="calculating('2')" class="numbers">2</button>
+                <button onclick="calculating('3')" class="numbers">3</button>
+                <button onclick="calculating('+')" class="operators">+</button>
+                <button onclick="calculating('0')" class="numbers">0</button>
+                <button onclick="calculating('.')" class="numbers">,</button>
+                <button onclick="callResult()" class="operators">=</button>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
